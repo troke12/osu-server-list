@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Osu! Private Server Listing</title>
+  <link rel="stylesheet" href="https:////fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <h1>Osu! Private Server Listing</h1>
+  </header>
+
+  <div id="list-container">
+    <table id="app">
+      <thead>
+        <tr>
+          <th>Server Name</th>
+          <th>Owner</th>
+          <th>Location</th>
+          <th>Discord</th>
+        </tr>
+      </thead>
+      <tbody class="list">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+  <script src="data.js"></script>
+  <script>
+    $(items).each(function(k, v) {
+      $("#app tbody").append("<tr><td class='name'><a href='"+v.link+"'</a>"+v.name+"</td><td class='owner'>"+v.owner+"</td><td class='location'>"+v.location+"</td><td class='discord'><a href='"+v.discord+"'><img src='https://cdn8.bigcommerce.com/s-prdpfsbvbl/product_images/uploaded_images/button-discord.png' style='width:120px;height:35px;'></a></td></tr>")
+    });
+    var options = {
+      valueNames: ['name', 'owner', 'location', 'discord']
+    };
+    var list = new List('list-container', options);
+  </script>
+</body>
+</html>

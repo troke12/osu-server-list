@@ -1,0 +1,15 @@
+body { width: 960px; display: block; margin: 0 auto; padding: 40px 20px; }
+header { margin-bottom: 20px }
+.buttons { margin-top: 2em; }
+.button { margin-right: 1em; }
+@media screen and (max-width: 920px) { body { width: 100%; } }
+@media screen and (max-width: 700px) {
+  header h2 { font-size: 2rem !important; }
+  thead { display: none;  }
+  tbody tr { border-bottom: 1px solid #E1E1E1; display: block; padding: 0.5em 0; }
+  tbody tr:last-child { border-bottom: none; }
+  tbody td { display: block; border: none; padding-left: 0; }
+  tbody td:before { color: #888f94; margin-right: 0.5em; }
+  tbody td:nth-child(2):before { content: "Owner:" }
+  tbody td:nth-child(3):before { content: "Location:" }
+}
