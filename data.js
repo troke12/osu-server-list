@@ -30,7 +30,7 @@ var items = [
   {
     name: "Fuquila",
     link: "https://fuquila.net",
-    owner: "Aochi",
+    owner: "Aochi, Sensokaku",
     location: "Australia",
     discord: "https://discord.gg/zEeU85Kf5r"
   },
