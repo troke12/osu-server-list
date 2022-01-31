@@ -55,4 +55,11 @@ var items = [
     location: "United States",
     discord: "https://discord.gg/EQcvGMjDYP"
   },
+  {
+    name: "osu!Aeris",
+    link: "https://aeris-dev.pw/",
+    owner: "PANIGE",
+    location: "France",
+    discord: "https://discord.gg/GZwWzQZ"
+  }
 ];
