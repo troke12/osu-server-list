@@ -7,6 +7,13 @@ var items = [
     discord: "https://datenshi.pw/discord"
   },
   {
+    name: "tsuki!",
+    link: "https://tski.moe",
+    owner: "jupiter (j@upiter.one, jupiter#2132)",
+    location: "Australia",
+    discord: "https://tski.moe/discord"
+  },
+  {
     name: "Ripple",
     link: "https://ripple.moe",
     owner: "Nyo",
