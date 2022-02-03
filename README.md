@@ -1,19 +1,19 @@
-# Osu! Private Server Listing
+# osu! Private Server Listing
 
-The list of osu private server
+A list of osu! private servers.
 
 #### How to add your server
 
 <pre>
 var items = [
   {
-    name: "Name of Your Server",
-    link: "http://yourosuserver",
-    owner: "your owner",
+    name: "Name of your server",
+    link: "http://yourosuserver.com",
+    owner: "The owner",
     location: "City or country",
-    discord: "Discord Invite"
+    discord: "Discord invite"
   }
 ];
 </pre>
 
-Please make sure each of your items is separate.
+Make sure each of your items are separate.
