@@ -75,5 +75,5 @@ var items = [
     owner: "Aoba Suzukaze",
     location: "Finland",
     discord: "https://discord.gg/Qp3WQU8"
-  },
+  }
 ];
