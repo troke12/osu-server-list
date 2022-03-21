@@ -68,5 +68,12 @@ var items = [
     owner: "PANIGE",
     location: "France",
     discord: "https://discord.gg/GZwWzQZ"
-  }
+  },
+  {
+    name: "Rina",
+    link: "https://rina.place",
+    owner: "Aoba Suzukaze",
+    location: "Finland",
+    discord: "https://discord.gg/Qp3WQU8"
+  },
 ];
