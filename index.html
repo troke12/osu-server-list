@@ -43,6 +43,7 @@
           <th>Server Name</th>
           <th>Owner</th>
           <th>Location</th>
+          <th>Online</th>
           <th>Discord</th>
         </tr>
       </thead>
@@ -57,10 +58,43 @@
   <script src="data.js"></script>
   <script>
     $(items).each(function(k, v) {
-      $("#app tbody").append("<tr><td class='name'><a href='"+v.link+"'</a>"+v.name+"</td><td class='owner'>"+v.owner+"</td><td class='location'>"+v.location+"</td><td class='discord'><a href='"+v.discord+"'><img src='https://cdn8.bigcommerce.com/s-prdpfsbvbl/product_images/uploaded_images/button-discord.png' style='width:120px;height:35px;'></a></td></tr>")
+      function handleRipple(api){
+        $.getJSON(api, function(data){
+          getDT = data.result;
+          kirimKesana();
+        });
+      }
+      function handleGulag(api){
+        $.getJSON(api, function(data){
+          getDT = data.counts.online;
+          kirimKesana();
+        });
+      }
+      function kirimKesana(){
+        console.log("cacaca => ", getDT);
+      }
+      var data;
+      switch(v.instances){
+        case 0:
+            // ENDPOINT A
+            crot = handleRipple(v.onlineAPI);
+            //.log("dari ripple => ", handleRipple(v.onlineAPI))
+            break;
+        case 1:
+            // ENDPOINT B
+            crot = handleGulag(v.onlineAPI);
+            //console.log("dari gulag => ", crot)
+            break;
+        default:
+            getDT = null;
+      }
+      function kirimKesana(){
+        $("#app tbody").append("<tr><td class='name'><a href='"+v.link+"'</a>"+v.name+"</td><td class='owner'>"+v.owner+"</td><td class='location'>"+v.location+"</td><td class='online'>"+getDT+"</td><td class='discord'><a href='"+v.discord+"'><img src='https://cdn8.bigcommerce.com/s-prdpfsbvbl/product_images/uploaded_images/button-discord.png' style='width:120px;height:35px;'></a></td></tr>")
+      }
+      //console.log(getDT);
     });
     var options = {
-      valueNames: ['name', 'owner', 'location', 'discord']
+      valueNames: ['name', 'owner', 'location', 'online', 'discord']
     };
     var list = new List('list-container', options);
   </script>
