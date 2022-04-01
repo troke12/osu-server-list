@@ -97,5 +97,23 @@ var items = [
     onlineAPI: "https://c.akatsuki.pw/api/v1/onlineUsers",
     instances: 0,
     discord: "https://akatsuki.pw/discord"
+  },
+  {
+    name: "Kawata",
+    link: "https://kawata.pw",
+    owner: "Aku",
+    location: "French",
+    onlineAPI: "https://c.kawata.pw/api/v1/onlineUsers",
+    instances: 0,
+    discord: "https://discord.gg/4CzsqkK"
+  },
+  {
+    name: "SevenTwentySeven",
+    link: "https://seventwentyseven.xyz/",
+    owner: "Jakub",
+    location: "Poland",
+    onlineAPI: "https://api.seventwentyseven.xyz/get_player_count",
+    instances: 1,
+    discord: "https://seventwentyseven.xyz/discord"
   }
 ];
