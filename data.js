@@ -20,7 +20,7 @@ var items = [
   {
     name: "tsuki!",
     link: "https://tski.moe",
-    owner: "jupiter (j@upiter.one, jupiter#2132)",
+    owner: "jupiter",
     location: "Australia",
     onlineAPI: "https://api.tski.moe/get_player_count",
     instances: 1,
