@@ -66,21 +66,25 @@
           kirimKesana();
         });
       }
-      function kirimKesana(){
-        console.log("cacaca => ", getDT);
+      function SpecialRipple(api){
+        $.getJSON(api, function(data){
+          getDT = data.connected_users;
+          kirimKesana();
+        })
       }
       var data;
       switch(v.instances){
         case 0:
             // ENDPOINT A
             crot = handleRipple(v.onlineAPI);
-            //.log("dari ripple => ", handleRipple(v.onlineAPI))
             break;
         case 1:
             // ENDPOINT B
             crot = handleGulag(v.onlineAPI);
-            //console.log("dari gulag => ", crot)
             break;
+        case 2:
+            // HANDLING SPECIAL FOR RIPPLE
+            crot = SpecialRipple(v.onlineAPI);
         default:
             getDT = null;
       }

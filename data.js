@@ -115,5 +115,14 @@ var items = [
     onlineAPI: "https://api.seventwentyseven.xyz/get_player_count",
     instances: 1,
     discord: "https://seventwentyseven.xyz/discord"
+  },
+  {
+    name: "Ripple",
+    link: "https://ripple.moe",
+    owner: "Nyo",
+    location: "Italy",
+    onlineAPI: "https://c.ripple.moe/api/v2/clients",
+    instances: 2,
+    discord: "https://discord.gg/0rJcZruIsA6rXuIx"
   }
 ];
