@@ -23,3 +23,11 @@ Make sure each of your items are separate.
 For `instances` there are only 2 values :
 - 0 for the server who are using ripple instances
 - 1 for the server using gulag
+
+## Contributors
+
+<a href="https://github.com/troke12/osu-server-list/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=troke12/osu-server-list" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
