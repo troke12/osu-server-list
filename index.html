@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <title>osu! Private Server Listing</title>
   <link rel="stylesheet" href="https:////fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dist/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+  <script src="src/data.js"></script>
+  <script src="src/endpointData.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Primary Meta Tags -->
   <meta name="title" content="Osu! Private Server Listing">
@@ -27,77 +30,60 @@
   <meta property="twitter:description" content="Welcome to a simple osu! private server listing! Here, you can find any server you want. You can also join their discord for more information about the server.">
   <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/874251888357441537/938105355056074812/osu_ps_small.png">
 </head>
-<body>
-  <header>
-    <h1>osu! Private Server Listing</h1>
-  </header>
-
-  <div id="list-container">
-    <table id="app">
-      <thead>
-        <tr>
-          <th>Server Name</th>
-          <th>Owner</th>
-          <th>Location</th>
-          <th>Online</th>
-          <th>Discord</th>
-        </tr>
-      </thead>
-      <tbody class="list">
-      </tbody>
-    </table>
+<body class="text-gray-700 bg-white" style="font-family: 'Source Sans Pro', sans-serif">
+  <div class="py-20" style="background: linear-gradient(90deg, #110f13 0%, #764ba2 100%)">
+      <div class="container text-center mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-2 text-white">
+          The listing of osu! Private server around the world!
+        </h2>
+        <h3 class="text-2xl mb-8 text-gray-200">
+          Find your best server here or add yours!
+        </h3>
+        <a href="https://github.com/troke12/osu-server-list">
+          <button class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+          Github
+          </button>
+        </a>
+      </div>
+    </div>
+  <section class="container mx-auto px-6 p-10">
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
+     Server List
+    </h2>
+    <div class="relative overflow-x-auto shadow-md sm:rounded-lg" id="list-container">
+      <table id="app" class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <tr>
+                  <th scope="col" class="px-6 py-3">
+                      Server Name
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      Owner
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      Location
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      Online
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      Discord
+                  </th>
+              </tr>
+          </thead>
+          <tbody class="list">
+          </tbody>
+      </table>
   </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-
-  <script src="data.js"></script>
-  <script>
-    $(items).each(function(k, v) {
-      function handleRipple(api){
-        $.getJSON(api, function(data){
-          getDT = data.result;
-          kirimKesana();
-        });
-      }
-      function handleGulag(api){
-        $.getJSON(api, function(data){
-          getDT = data.counts.online;
-          kirimKesana();
-        });
-      }
-      function SpecialRipple(api){
-        $.getJSON(api, function(data){
-          getDT = data.connected_users;
-          kirimKesana();
-        })
-      }
-      var data;
-      switch(v.instances){
-        case 0:
-            // ENDPOINT A
-            crot = handleRipple(v.onlineAPI);
-            break;
-        case 1:
-            // ENDPOINT B
-            crot = handleGulag(v.onlineAPI);
-            break;
-        case 2:
-            // HANDLING SPECIAL FOR RIPPLE
-            crot = SpecialRipple(v.onlineAPI);
-        default:
-            getDT = null;
-      }
-      function kirimKesana(){
-        $("#app tbody").append("<tr><td class='name'><a href='"+v.link+"'</a>"+v.name+"</td><td class='owner'>"+v.owner+"</td><td class='location'>"+v.location+"</td><td class='online'>"+getDT+"</td><td class='discord'><a href='"+v.discord+"'><img src='https://cdn8.bigcommerce.com/s-prdpfsbvbl/product_images/uploaded_images/button-discord.png' style='width:120px;height:35px;'></a></td></tr>")
-      }
-      //console.log(getDT);
-    });
-    var options = {
-      valueNames: ['name', 'owner', 'location', 'online', 'discord']
-    };
-    var list = new List('list-container', options);
-  </script>
-  <p>Is your server missing or are you a owner that wishes to list your server here? Feel free to request it <a href="https://github.com/troke12/osu-server-list">here</a>!</p>
+  </section>
+  <footer class="bg-gray-100">
+    <div class="container mx-auto px-6 pt-10 pb-6">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/4 text-center md:text-left">
+          <h5 class="uppercase mb-6 font-bold">Made with love by troke</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

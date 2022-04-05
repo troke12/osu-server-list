@@ -23,6 +23,9 @@ Make sure each of your items are separate.
 For `instances` there are only 2 values :
 - 0 for the server who are using ripple instances
 - 1 for the server using gulag
+- 2 Special for Ripple only
+
+## Development
 
 ## Contributors
 
