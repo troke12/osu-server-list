@@ -7,7 +7,7 @@ var items = [
     onlineAPI: "https://c.gatari.pw/api/v1/onlineUsers",
     instances: 0,
     discord: "https://discord.gg/ZURP4Mx4Vc",
-    logo: "https://osu.gatari.pw/static/favicons/apple-touch-icon.png"
+    logo: "https://osu.gatari.pw/static/images/glyphs/glyph-white.svg"
   },
   {
     name: "DATENSHI",
