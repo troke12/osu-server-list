@@ -3,126 +3,110 @@ var items = [
     name: "Gatari",
     link: "https://osu.gatari.pw",
     owner: "firedigger",
-    location: "Russia",
+    location: "RU",
     onlineAPI: "https://c.gatari.pw/api/v1/onlineUsers",
     instances: 0,
-    discord: "https://discord.gg/ZURP4Mx4Vc"
+    discord: "https://discord.gg/ZURP4Mx4Vc",
+    logo: "https://osu.gatari.pw/static/favicons/apple-touch-icon.png"
   },
   {
     name: "DATENSHI",
     link: "https://osu.datenshi.pw",
     owner: "troke",
-    location: "Indonesia",
+    location: "ID",
     onlineAPI: "https://c.datenshi.pw/api/v1/onlineUsers",
     instances: 0,
-    discord: "https://datenshi.pw/discord"
-  },
-  {
-    name: "tsuki!",
-    link: "https://tski.moe",
-    owner: "jupiter",
-    location: "Australia",
-    onlineAPI: "https://api.tski.moe/get_player_count",
-    instances: 1,
-    discord: "https://tski.moe/discord"
+    discord: "https://datenshi.pw/discord",
+    logo: "https://datenshi.pw/assets/img/icons/android-icon-48x48.png"
   },
   {
     name: "RealistikOsu",
     link: "https://ussr.pl",
     owner: "RealistikDash",
-    location: "United Kingdom",
+    location: "GB",
     onlineAPI: "https://c.ussr.pl/api/v1/onlineUsers",
     instances: 0,
-    discord: "https://discord.gg/8ySdzhyMtt"
+    discord: "https://discord.gg/8ySdzhyMtt",
+    logo: "https://ussr.pl/static/images/new-logo.svg"
   },
   {
     name: "EZPPFarm",
     link: "https://ez-pp.farm",
     owner: "Quetzalcoatl, Thomas",
-    location: "Germany",
+    location: "DE",
     onlineAPI: "https://c.ez-pp.farm/api/v1/onlineUsers",
     instances: 0,
-    discord: "https://discord.gg/g8Bh7RaKPg"
+    discord: "https://discord.gg/g8Bh7RaKPg",
+    logo: "https://ez-pp.farm/static/logos/circle.png"
   },
   {
     name: "Fuquila",
     link: "https://fuquila.net",
     owner: "Aochi, Sensokaku",
-    location: "Australia",
+    location: "AU",
     onlineAPI: "https://c.fuquila.net/api/v1/onlineUsers",
     instances: 0,
-    discord: "https://discord.gg/zEeU85Kf5r"
+    discord: "https://discord.gg/zEeU85Kf5r",
+    logo: "https://fuquila.net/static/logos/text-black.png"
   },
   {
     name: "Fumosu",
     link: "https://fumosu.pw",
     owner: "Aochi",
-    location: "United States",
+    location: "US",
     instances: 1,
     onlineAPI: "https://api.fumosu.pw/get_player_count",
-    discord: "https://discord.gg/SvE65GsEXE"
+    discord: "https://discord.gg/SvE65GsEXE",
+    logo: "https://fumosu.pw/static/favicon/apple-touch-icon.png"
   },
   {
     name: "Miksu",
     link: "https://miku.network",
     owner: "Sensokaku",
-    location: "United States",
+    location: "US",
     onlineAPI: "https://api.miku.network/get_player_count",
     instances: 1,
-    discord: "https://discord.gg/DPcJP9CtdC"
+    discord: "https://discord.gg/DPcJP9CtdC",
+    logo: "https://miku.network/static/favicon/apple-touch-icon.png"
   },
   {
     name: "Kurikku",
     link: "https://kurikku.pw",
     owner: "Wenin",
-    location: "Russia",
+    location: "RU",
     onlineAPI: "https://c.kurikku.pw/api/v1/onlineUsers",
     instances: 0,
-    discord: "https://discord.com/invite/5uA3c76"
+    discord: "https://discord.com/invite/5uA3c76",
+    logo: "https://kurikku.pw/static/logos/text-white-snow.png"
   },
   {
     name: "Rina",
     link: "https://rina.place",
     owner: "Aoba Suzukaze",
-    location: "Finland",
+    location: "FI",
     onlineAPI: "https://c.rina.place/api/v1/onlineUsers",
     instances: 0,
-    discord: "https://discord.gg/Qp3WQU8"
-  },
-  {
-    name: "Akatsuki",
-    link: "https://akatsuki.pw",
-    owner: "CursorDance",
-    location: "United States",
-    onlineAPI: "https://c.akatsuki.pw/api/v1/onlineUsers",
-    instances: 0,
-    discord: "https://akatsuki.pw/discord"
-  },
-  {
-    name: "Kawata",
-    link: "https://kawata.pw",
-    owner: "Aku",
-    location: "French",
-    onlineAPI: "https://c.kawata.pw/api/v1/onlineUsers",
-    instances: 0,
-    discord: "https://discord.gg/4CzsqkK"
+    discord: "https://discord.gg/Qp3WQU8",
+    logo: "https://rina.place/static/logos/text-black.png"
   },
   {
     name: "SevenTwentySeven",
     link: "https://seventwentyseven.xyz/",
     owner: "Jakub",
-    location: "Poland",
+    location: "PL",
     onlineAPI: "https://api.seventwentyseven.xyz/get_player_count",
     instances: 1,
-    discord: "https://seventwentyseven.xyz/discord"
+    discord: "https://seventwentyseven.xyz/discord",
+    logo: "https://seventwentyseven.xyz/static/favicon/favicon-32x32.png"
   },
   {
     name: "Ripple",
     link: "https://ripple.moe",
     owner: "Nyo",
-    location: "Italy",
+    location: "IT",
     onlineAPI: "https://c.ripple.moe/api/v2/clients",
     instances: 2,
-    discord: "https://discord.gg/0rJcZruIsA6rXuIx"
+    discord: "https://discord.gg/0rJcZruIsA6rXuIx",
+    logo: "https://ripple.moe/static/logos/text.svg"
   }
 ];

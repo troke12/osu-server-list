@@ -27,6 +27,10 @@ For `instances` there are only 2 values :
 
 ## Development
 
+- Clone this repository
+- `npm install` to install dependencies
+- `npx tailwindcss -i src/input.css -o dist/style.css --watch` for start developing
+
 ## Contributors
 
 <a href="https://github.com/troke12/osu-server-list/graphs/contributors">
