@@ -17,7 +17,7 @@ var items = [
     onlineAPI: "https://c.datenshi.pw/api/v1/onlineUsers",
     instances: 0,
     discord: "https://datenshi.pw/discord",
-    logo: "https://datenshi.pw/assets/img/icons/android-icon-48x48.png"
+    logo: "https://osu.datenshi.pw/static/logo2.png"
   },
   {
     name: "RealistikOsu",
