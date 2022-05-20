@@ -13,7 +13,7 @@ var items = [
     name: "DATENSHI",
     link: "https://osu.datenshi.pw",
     owner: "troke",
-    location: "ID",
+    location: "SG",
     onlineAPI: "https://c.datenshi.pw/api/v1/onlineUsers",
     instances: 0,
     discord: "https://datenshi.pw/discord",
