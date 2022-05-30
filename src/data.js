@@ -43,7 +43,7 @@ var items = [
     name: "Fuquila",
     link: "https://fuquila.net",
     owner: "Aochi, Sensokaku",
-    location: "AU",
+    location: "DE",
     onlineAPI: "https://c.fuquila.net/api/v1/onlineUsers",
     instances: 0,
     discord: "https://discord.gg/zEeU85Kf5r",
@@ -52,22 +52,12 @@ var items = [
   {
     name: "Fumosu",
     link: "https://fumosu.pw",
-    owner: "Aochi",
-    location: "US",
+    owner: "Aochi, Sensokaku",
+    location: "DE",
     instances: 1,
     onlineAPI: "https://api.fumosu.pw/get_player_count",
     discord: "https://discord.gg/SvE65GsEXE",
     logo: "https://fumosu.pw/static/favicon/apple-touch-icon.png"
-  },
-  {
-    name: "Miksu",
-    link: "https://miku.network",
-    owner: "Sensokaku",
-    location: "US",
-    onlineAPI: "https://api.miku.network/get_player_count",
-    instances: 1,
-    discord: "https://discord.gg/DPcJP9CtdC",
-    logo: "https://miku.network/static/favicon/apple-touch-icon.png"
   },
   {
     name: "Kurikku",
