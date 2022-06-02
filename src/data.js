@@ -10,6 +10,16 @@ var items = [
     logo: "https://osu.gatari.pw/static/images/glyphs/glyph-white.svg"
   },
   {
+    name: "tsuki!",
+    link: "https://tski.moe",
+    owner: "jupiter & salcido",
+    location: "AU",
+    onlineAPI: "https://api.tski.moe/get_online_count",
+    instances: 0,
+    discord: "https://discord.gg/fEkzGRu9Wc",
+    logo: "https://tski.moe/public/media/images/icon.png"
+  },
+  {
     name: "DATENSHI",
     link: "https://osu.datenshi.pw",
     owner: "troke",
