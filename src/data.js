@@ -12,7 +12,7 @@ var items = [
   {
     name: "tsuki!",
     link: "https://tski.moe",
-    owner: "jupiter & salcido",
+    owner: "Jupiter, Salcido",
     location: "AU",
     onlineAPI: "https://api.tski.moe/get_player_count",
     instances: 0,
