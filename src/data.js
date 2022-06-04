@@ -10,16 +10,6 @@ var items = [
     logo: "https://osu.gatari.pw/static/images/glyphs/glyph-white.svg"
   },
   {
-    name: "tsuki!",
-    link: "https://tski.moe",
-    owner: "Jupiter, Salcido",
-    location: "AU",
-    onlineAPI: "https://api.tski.moe/get_player_count",
-    instances: 0,
-    discord: "https://discord.gg/fEkzGRu9Wc",
-    logo: "https://tski.moe/public/media/images/icon.png"
-  },
-  {
     name: "DATENSHI",
     link: "https://osu.datenshi.pw",
     owner: "troke",
@@ -58,6 +48,16 @@ var items = [
     instances: 0,
     discord: "https://discord.gg/zEeU85Kf5r",
     logo: "https://fuquila.net/static/logos/text-black.png"
+  },
+  {
+    name: "Tsuki!",
+    link: "https://tski.moe",
+    owner: "Jupiter, Salcido",
+    location: "AU",
+    onlineAPI: "https://api.tski.moe/get_player_count",
+    instances: 1,
+    discord: "https://discord.gg/fEkzGRu9Wc",
+    logo: "https://tski.moe/public/media/images/icon.png"
   },
   {
     name: "Fumosu",
