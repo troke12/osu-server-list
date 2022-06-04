@@ -14,7 +14,7 @@ var items = [
     link: "https://tski.moe",
     owner: "jupiter & salcido",
     location: "AU",
-    onlineAPI: "https://api.tski.moe/get_online_count",
+    onlineAPI: "https://api.tski.moe/get_player_count",
     instances: 0,
     discord: "https://discord.gg/fEkzGRu9Wc",
     logo: "https://tski.moe/public/media/images/icon.png"
