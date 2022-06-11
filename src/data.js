@@ -50,9 +50,9 @@ var items = [
     logo: "https://fuquila.net/static/logos/text-black.png"
   },
   {
-    name: "Tsuki!",
+    name: "tsuki!",
     link: "https://tski.moe",
-    owner: "Jupiter, Salcido",
+    owner: "jupiter, Salcido",
     location: "AU",
     onlineAPI: "https://api.tski.moe/get_player_count",
     instances: 1,
