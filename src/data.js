@@ -118,5 +118,15 @@ var items = [
     instances: 2,
     discord: "https://discord.gg/0rJcZruIsA6rXuIx",
     logo: "https://ripple.moe/static/logos/text.svg"
+  },
+    {
+    name: "Atsu!",
+    link: "https://osu.atsu.pw",
+    owner: "Sensokaku",
+    location: "AU",
+    instances: 1,
+    onlineAPI: "https://api.atsu.pw/get_player_count",
+    discord: "https://discord.gg/RKj9abXrDR",
+    logo: "https://osu.atsu.pw/static/favicon/apple-touch-icon.png"
   }
 ];
