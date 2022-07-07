@@ -30,14 +30,14 @@ var items = [
     logo: "https://ussr.pl/static/images/new-logo.svg"
   },
   {
-    name: "waves",
-    link: "https://waves.moe",
+    name: "halcyon",
+    link: "https://halcyon.moe",
     owner: "jupiter, Salcido",
     location: "AU",
-    onlineAPI: "https://api.waves.moe/get_player_count",
+    onlineAPI: "https://api.halcyon.moe/get_player_count",
     instances: 1,
     discord: "https://discord.gg/fEkzGRu9Wc",
-    logo: "https://waves.moe/static/images/waves.png"
+    logo: "https://halcyon.moe/static/images/icon.png"
   },
   {
     name: "EZPPFarm",
