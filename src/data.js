@@ -110,16 +110,6 @@ var items = [
     logo: "https://cripple.moe/static/navbar.gif"
   },
   {
-    name: "Ripple",
-    link: "https://ripple.moe",
-    owner: "Nyo",
-    location: "IT",
-    onlineAPI: "https://c.ripple.moe/api/v2/clients",
-    instances: 2,
-    discord: "https://discord.gg/0rJcZruIsA6rXuIx",
-    logo: "https://ripple.moe/static/logos/text.svg"
-  },
-    {
     name: "Atsu!",
     link: "https://osu.atsu.pw",
     owner: "Sensokaku",
