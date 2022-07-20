@@ -109,14 +109,4 @@ var items = [
     discord: "https://discord.gg/XhEKaJz4RH",
     logo: "https://cripple.moe/static/navbar.gif"
   },
-  {
-    name: "Atsu!",
-    link: "https://osu.atsu.pw",
-    owner: "Sensokaku",
-    location: "AU",
-    instances: 1,
-    onlineAPI: "https://api.atsu.pw/get_player_count",
-    discord: "https://discord.gg/RKj9abXrDR",
-    logo: "https://osu.atsu.pw/static/favicon/apple-touch-icon.png"
-  }
 ];
