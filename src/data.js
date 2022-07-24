@@ -99,14 +99,4 @@ var items = [
     discord: "https://seventwentyseven.xyz/discord",
     logo: "https://seventwentyseven.xyz/static/favicon/favicon-32x32.png"
   },
-  {
-    name: "Cripple",
-    link: "https://cripple.moe",
-    owner: "Sky",
-    location: "Germany",
-    onlineAPI: "https://c.cripple.moe/api/v1/onlineUsers",
-    instances: 0,
-    discord: "https://discord.gg/XhEKaJz4RH",
-    logo: "https://cripple.moe/static/navbar.gif"
-  },
 ];
