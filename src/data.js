@@ -44,7 +44,7 @@ var items = [
     link: "https://ez-pp.farm",
     owner: "Quetzalcoatl, Thomas",
     location: "DE",
-    onlineAPI: "https://c.ez-pp.farm/api/v1/onlineUsers",
+    onlineAPI: "https://api.ez-pp.farm/get_player_count",
     instances: 0,
     discord: "https://discord.gg/g8Bh7RaKPg",
     logo: "https://ez-pp.farm/static/logos/circle.png"
