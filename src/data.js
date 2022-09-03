@@ -99,4 +99,15 @@ var items = [
     discord: "https://seventwentyseven.xyz/discord",
     logo: "https://seventwentyseven.xyz/static/favicon/favicon-32x32.png"
   },
+  },
+    {
+    name: "Nogger",
+    link: "https://nogger.cf",
+    owner: "kaan, Suko",
+    location: "DE",
+    instances: 1,
+    onlineAPI: "https://api.nogger.cf/get_player_count",
+    discord: "https://discord.gg/dG9PVw9fTj",
+    logo: "https://osu.nogger.cf/static/favicon/apple-touch-icon.png"
+  }
 ];
