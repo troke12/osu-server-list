@@ -92,7 +92,7 @@ var items = [
   {
     name: "SevenTwentySeven",
     link: "https://seventwentyseven.xyz/",
-    owner: "Jakub",
+    owner: "def750, dzifors",
     location: "PL",
     onlineAPI: "https://api.seventwentyseven.xyz/get_player_count",
     instances: 1,
