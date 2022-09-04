@@ -99,8 +99,7 @@ var items = [
     discord: "https://seventwentyseven.xyz/discord",
     logo: "https://seventwentyseven.xyz/static/favicon/favicon-32x32.png"
   },
-  },
-    {
+  {
     name: "Nogger",
     link: "https://nogger.cf",
     owner: "kaan, Suko",
