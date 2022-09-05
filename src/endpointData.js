@@ -4,21 +4,21 @@
         return new Promise(function(ok, fail) {
             $.getJSON(api, function(data){
                 ok({id: id, data: data.result});
-            });
+            }).fail(function(){ fail(); });
         });
     }
     function handleGulag(id, api){
         return new Promise(function(ok, fail) {
             $.getJSON(api, function(data){
                 ok({id: id, data: data.counts.online});
-            });
+            }).fail(function(){ fail(); });
         });
     }
     function SpecialRipple(id, api){
         return new Promise(function(ok, fail) {
             $.getJSON(api, function(data){
                 ok({id: id, data: data.connected_users});
-            });
+            }).fail(function(){ fail(); });
         });
     }
     function kirimKesana(instanceData, onlineData){
@@ -52,7 +52,7 @@
     Promise.allSettled(itemPromises).then(function(promiseData) {
         promiseData.forEach(function(promiseResponse, i) {
             if(promiseResponse.status == 'rejected') {
-                console.warning(items[i].name, "server encountered an error. Ignoring this.", promiseResponse.reason);
+                console.warn(items[i].name, "server encountered an error. Ignoring this.", promiseResponse.reason);
                 return;
             }
             kirimKesana(items[i], promiseResponse.value.data);
