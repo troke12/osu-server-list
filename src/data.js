@@ -108,5 +108,15 @@ var items = [
     onlineAPI: "https://api.nogger.cf/get_player_count",
     discord: "https://discord.gg/dG9PVw9fTj",
     logo: "https://osu.nogger.cf/static/favicon/apple-touch-icon.png"
+  },
+  {
+    name: "Atsu!",
+    link: "https://osu.atsu.pw",
+    owner: "Sensokaku",
+    location: "AU",
+    instances: 1,
+    onlineAPI: "https://api.atsu.pw/get_player_count",
+    discord: "https://discord.gg/RKj9abXrDR",
+    logo: "https://osu.atsu.pw/static/favicon/apple-touch-icon.png"
   }
 ];
