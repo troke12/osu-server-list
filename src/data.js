@@ -10,16 +10,6 @@ var items = [
     logo: "https://osu.gatari.pw/static/images/glyphs/glyph-white.svg"
   },
   {
-    name: "DATENSHI",
-    link: "https://osu.datenshi.pw",
-    owner: "troke",
-    location: "SG",
-    onlineAPI: "https://c.datenshi.pw/api/v1/onlineUsers",
-    instances: 0,
-    discord: "https://datenshi.pw/discord",
-    logo: "https://osu.datenshi.pw/static/logo2.png"
-  },
-  {
     name: "RealistikOsu",
     link: "https://ussr.pl",
     owner: "RealistikDash",
@@ -98,16 +88,6 @@ var items = [
     instances: 1,
     discord: "https://seventwentyseven.xyz/discord",
     logo: "https://seventwentyseven.xyz/static/favicon/favicon-32x32.png"
-  },
-  {
-    name: "Nogger",
-    link: "https://nogger.cf",
-    owner: "kaan, Suko",
-    location: "DE",
-    instances: 1,
-    onlineAPI: "https://api.nogger.cf/get_player_count",
-    discord: "https://discord.gg/dG9PVw9fTj",
-    logo: "https://osu.nogger.cf/static/favicon/apple-touch-icon.png"
   },
   {
     name: "Atsu!",
