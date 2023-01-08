@@ -98,5 +98,15 @@ var items = [
     onlineAPI: "https://api.atsu.pw/get_player_count",
     discord: "https://discord.gg/RKj9abXrDR",
     logo: "https://osu.atsu.pw/static/favicon/apple-touch-icon.png"
+  },
+  {
+    name: "osu.fuyu.gg",
+    link: "http://osu.fuyu.gg",
+    owner: "fuyu",
+    location: "US",
+    onlineAPI: "https://api.fuyu.gg/get_player_count",
+    instances: 1,
+    discord: "https://discord.gg/C9H6WztMJs",
+    logo: "https://i.imgur.com/NTO0Avx.png"
   }
 ];
