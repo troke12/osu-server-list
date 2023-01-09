@@ -37,7 +37,7 @@ var items = [
     onlineAPI: "https://api.ez-pp.farm/get_player_count",
     instances: 1,
     discord: "https://discord.gg/g8Bh7RaKPg",
-    logo: "https://ez-pp.farm/static/logos/circle.png"
+    logo: "https://ez-pp.farm/assets/img/icon.webp"
   },
   {
     name: "Fuquila",
@@ -58,16 +58,6 @@ var items = [
     onlineAPI: "https://api.fumosu.pw/get_player_count",
     discord: "https://discord.gg/SvE65GsEXE",
     logo: "https://fumosu.pw/static/favicon/apple-touch-icon.png"
-  },
-  {
-    name: "Kurikku",
-    link: "https://kurikku.pw",
-    owner: "Wenin",
-    location: "RU",
-    onlineAPI: "https://c.kurikku.pw/api/v1/onlineUsers",
-    instances: 0,
-    discord: "https://discord.com/invite/5uA3c76",
-    logo: "https://kurikku.pw/static/logos/text-white-snow.png"
   },
   {
     name: "Rina",
@@ -100,7 +90,7 @@ var items = [
     logo: "https://osu.atsu.pw/static/favicon/apple-touch-icon.png"
   },
   {
-    name: "osu.fuyu.gg",
+    name: "Fuyu",
     link: "http://osu.fuyu.gg",
     owner: "fuyu",
     location: "US",
