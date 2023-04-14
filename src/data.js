@@ -98,5 +98,15 @@ var items = [
     instances: 1,
     discord: "https://discord.gg/C9H6WztMJs",
     logo: "https://i.imgur.com/NTO0Avx.png"
+  },
+  {
+    name: "Kantoku",
+    link: "https://fysix.xyz",
+    owner: "tree",
+    location: "AU",
+    onlineAPI: "https://api.fysix.xyz/get_player_count",
+    instances: 1,
+    discord: "https://discord.gg/f2ApYdxm3h",
+    logo: "https://fysix.xyz/static/logo.jpg"
   }
 ];
