@@ -1,5 +1,15 @@
 var items = [
   {
+    name: "Ripple",
+    link: "https://ripple.moe",
+    owner: "Nyo",
+    location: "IT",
+    onlineAPI: "https://c.ripple.moe/api/v2/clients"
+    instances: 2,
+    discord: "https://discord.gg/0rJcZruIsA6rXuIx",
+    logo: "https://ripple.moe/static/logos/text.svg"
+  },
+  {
     name: "Gatari",
     link: "https://osu.gatari.pw",
     owner: "firedigger",
