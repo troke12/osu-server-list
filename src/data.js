@@ -4,7 +4,7 @@ var items = [
     link: "https://ripple.moe",
     owner: "Nyo",
     location: "IT",
-    onlineAPI: "https://c.ripple.moe/api/v2/clients"
+    onlineAPI: "https://c.ripple.moe/api/v2/clients",
     instances: 2,
     discord: "https://discord.gg/0rJcZruIsA6rXuIx",
     logo: "https://ripple.moe/static/logos/text.svg"
@@ -78,16 +78,6 @@ var items = [
     instances: 0,
     discord: "https://discord.gg/Qp3WQU8",
     logo: "https://rina.place/static/logos/text-black.png"
-  },
-  {
-    name: "SevenTwentySeven",
-    link: "https://seventwentyseven.xyz/",
-    owner: "def750, dzifors",
-    location: "PL",
-    onlineAPI: "https://api.seventwentyseven.xyz/v1/get_player_count",
-    instances: 1,
-    discord: "https://seventwentyseven.xyz/discord",
-    logo: "https://seventwentyseven.xyz/static/favicon/favicon-32x32.png"
   },
   {
     name: "Atsu!",
