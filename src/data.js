@@ -64,8 +64,8 @@ var items = [
     link: "https://fumosu.pw",
     owner: "Aochi, Sensokaku",
     location: "DE",
-    instances: 1,
-    onlineAPI: "https://api.fumosu.pw/get_player_count",
+    instances: 0,
+    onlineAPI: "https://c.fumosu.pw/api/v1/onlineUsers",
     discord: "https://discord.gg/SvE65GsEXE",
     logo: "https://fumosu.pw/static/favicon/apple-touch-icon.png"
   },
@@ -84,7 +84,7 @@ var items = [
     link: "https://seventwentyseven.xyz/",
     owner: "def750, dzifors",
     location: "PL",
-    onlineAPI: "https://api.seventwentyseven.xyz/get_player_count",
+    onlineAPI: "https://api.seventwentyseven.xyz/v1/get_player_count",
     instances: 1,
     discord: "https://seventwentyseven.xyz/discord",
     logo: "https://seventwentyseven.xyz/static/favicon/favicon-32x32.png"
@@ -95,7 +95,7 @@ var items = [
     owner: "Sensokaku",
     location: "AU",
     instances: 1,
-    onlineAPI: "https://api.atsu.pw/get_player_count",
+    onlineAPI: "https://api.atsu.pw/v1/get_player_count",
     discord: "https://discord.gg/RKj9abXrDR",
     logo: "https://osu.atsu.pw/static/favicon/apple-touch-icon.png"
   },
