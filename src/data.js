@@ -27,7 +27,7 @@ var items = [
     onlineAPI: "https://c.ussr.pl/api/v1/onlineUsers",
     instances: 0,
     discord: "https://discord.gg/8ySdzhyMtt",
-    logo: "https://ussr.pl/static/images/new-logo.svg"
+    logo: "https://ussr.pl/static/image/logo_new.png"
   },
   {
     name: "halcyon",
