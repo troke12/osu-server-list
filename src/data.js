@@ -99,4 +99,13 @@ var items = [
     discord: "https://discord.gg/f2ApYdxm3h",
     logo: "https://fysix.xyz/static/logo.jpg"
   }
+    name: "Nekosu!",
+    link: "https://nksu.gg",
+    owner: "Sky <3",
+    location: "GB",
+    onlineAPI: "https://c.nksu.gg/api/v1/onlineUsers",
+    instances: 1,
+    discord: "https://discord.gg/zAuDw8d6SA",
+    logo: "https://nksu.gg/static/osl/favicon64.png"
+  }
 ];
