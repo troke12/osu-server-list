@@ -38,51 +38,53 @@
   <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/874251888357441537/938105355056074812/osu_ps_small.png">
 </head>
 <body class="text-white bg-gray-800" style="font-family: 'Source Sans Pro', sans-serif">
-  <div class="py-20 bg-triangle">
-      <div class="container text-center mx-auto px-6">
-        <h2 class="text-4xl font-bold mb-2 text-white">
-          osu! Private Server Listing
-        </h2>
-        <h3 class="text-2xl mb-8 text-gray-200">
-          Find your best server here or add yours!
-        </h3>
-        <!--<a href="https://discord.gg/YJs9qkStGB">
-          <button class="bg-white text-gray-700 font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
-          Join Discord!
-          </button>
-        </a>-->
+  <div class="content-wrapper">
+    <div class="py-20 bg-triangle">
+        <div class="container text-center mx-auto px-6">
+          <h2 class="text-4xl font-bold mb-2 text-white">
+            osu! Private Server Listing
+          </h2>
+          <h3 class="text-2xl mb-8 text-gray-200">
+            Find your best server here or add yours!
+          </h3>
+          <!--<a href="https://discord.gg/YJs9qkStGB">
+            <button class="bg-white text-gray-700 font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+            Join Discord!
+            </button>
+          </a>-->
+        </div>
       </div>
+    <section class="container max-w-full mx-auto px-6 p-10 text-white bg-gray-800">
+      <h2 class="text-4xl font-bold text-center text-white mb-8">
+       Server List
+      </h2>
+      <div class="static max-w-5xl mx-auto overflow-x-auto shadow-md" id="list-container">
+        <table id="app" class="w-full text-sm text-left text-white">
+            <thead class="text-xs bg-purple-900 text-white">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        SERVER NAME
+                    </th>
+                    <th scope="col" class="py-3">
+                        OWNER
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        LOCATION
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        ONLINE
+                    </th>
+                    <th scope="col" class="pl-14 py-3">
+                        DISCORD
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="list">
+            </tbody>
+        </table>
     </div>
-  <section class="container max-w-full mx-auto px-6 p-10 text-white bg-gray-800">
-    <h2 class="text-4xl font-bold text-center text-white mb-8">
-     Server List
-    </h2>
-    <div class="static max-w-5xl mx-auto overflow-x-auto shadow-md" id="list-container">
-      <table id="app" class="w-full text-sm text-left text-white">
-          <thead class="text-xs bg-purple-900 text-white">
-              <tr>
-                  <th scope="col" class="px-6 py-3">
-                      SERVER NAME
-                  </th>
-                  <th scope="col" class="py-3">
-                      OWNER
-                  </th>
-                  <th scope="col" class="px-6 py-3">
-                      LOCATION
-                  </th>
-                  <th scope="col" class="px-6 py-3">
-                      ONLINE
-                  </th>
-                  <th scope="col" class="pl-14 py-3">
-                      DISCORD
-                  </th>
-              </tr>
-          </thead>
-          <tbody class="list">
-          </tbody>
-      </table>
+    </section>
   </div>
-  </section>
   <footer class="text-white" style="background: linear-gradient(90deg, #110f13 0%, #764ba2 100%)">
     <div class="container mx-auto px-6 pt-10 pb-6">
       <div class="flex flex-wrap">
